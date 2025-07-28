@@ -1,3 +1,5 @@
+import PatientsForm from "./components/PatientsForm"
+import PatientsList from "./components/PatientsList"
 
 
 function App() {
@@ -9,6 +11,11 @@ function App() {
           Seguimiento de Pacientes {''}
           <span className="text-indigo-700">Veterinarios</span>
         </h1>
+
+        <div className="mt-12 md:flex">
+          <PatientsForm />
+          <PatientsList/>
+        </div>
       </div>
     </>
   )
