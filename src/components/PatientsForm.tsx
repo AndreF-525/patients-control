@@ -44,7 +44,7 @@ export default function PatientsForm() {
 
         <p className="text-lg mt-5 text-center mb-10">
             Añade Pacientes y {''}
-            <span className="text-indigo-600 font-bold">Administralos</span>
+            <span className="text-indigo-600 font-bold">Adminístralos</span>
         </p>
 
         <form 
@@ -118,7 +118,7 @@ export default function PatientsForm() {
 
             <div className="mb-5">
                 <label htmlFor="date" className="text-sm uppercase font-bold">
-                    Fecha Alta 
+                    Fecha de Alta
                 </label>
                 <input  
                     id="date"
